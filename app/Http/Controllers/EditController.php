@@ -3,10 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
-use App\Artist;
 
-class HomeController extends Controller
+class EditController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -25,7 +23,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $artists = Artist::where('user_id', Auth::id())->get();
-        return view('home', compact('artists'));
+        return view('edit');
     }
 }
