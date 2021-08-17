@@ -10,7 +10,6 @@
                 <input type="hidden" name="type" value="1">
                 @csrf
                 <div class="form-group">
-                    <label for="name">曲名</label>
                     <input type="text" class="form-control" id="name" name="name">
                 </div>
                 <input type="submit" value="追加" class="btn btn-primary">
@@ -28,7 +27,6 @@
                 <input type="hidden" name="type" value="2">
                 @csrf
                 <div class="form-group">
-                    <label for="name">曲名</label>
                     <input type="text" class="form-control" id="name" name="name">
                 </div>
                 <input type="submit" value="追加" class="btn btn-primary">
@@ -46,7 +44,6 @@
                 <input type="hidden" name="type" value="3">
                 @csrf
                 <div class="form-group">
-                    <label for="name">曲名</label>
                     <input type="text" class="form-control" id="name" name="name">
                 </div>
                 <input type="submit" value="追加" class="btn btn-primary">
