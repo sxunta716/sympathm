@@ -5,7 +5,7 @@
     <div class="d-flex align-items-center" style="height: 100vh;">
         <div class="row">
             <div class="col-sm-12 col-lg-8">
-                <h1 class="display-4">おすすめしたい<br>アーティストは？</h1>
+                <h1 class="display-4">おすすめしたい<br>アーティストは？　</h1>
                 <hr class="my-4">
             </div>
             <form action="/artist/store" method="post" class="col-sm-12 col-lg-4">
